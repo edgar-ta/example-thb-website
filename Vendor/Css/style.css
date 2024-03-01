@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+        font-family: Rosalia;
+        src: url(/Vendor/Fuentes/fonts/ROSALIA.OTF) format('truetype');
+}
+
+body{
+    background-color: #000000;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+p{font-size: 1.4em;}
+a{ text-decoration: none; color: inherit;}
+
+header{
+    background-color: #000000bd;
+    font-family: Lexend-Exa , sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    margin-left: 78%;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f1efef;
+}
+
+
+header a:hover{
+    color: #b8b6b6;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #ebebebc6;
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)
+    )
+    ,url(/Vendor/Img/TSUNAMI/SHOW\(7\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: rgba(0, 0, 0, 0.858);
+    background-color: #ffffffbe;
+
+}
+
+button:hover{
+    background-color:  #d2d2d2be;
+}
+
+#introduccion .containerint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 12px;
+    color: #f1efef;
+}
+
+#introduccio .text{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    color: #f1efef;
+}
+
+#introduccion .img{
+    background-image:url(/Vendor/Img/Logos/3.png);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 35%;
+    border-radius: 5px;
+
+}
+
+.text_ins{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 12px;
+    color: #f1efef;
+}
+
+#integrantes .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 12px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.3);
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+#integrantes .text{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+}
+
+#integrantes .img_container{
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)
+    )
+    ,url(/Vendor/Img/PROMOCIONALES/PROMOCIONALES\(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 35%;
+    border-radius: 15px;
+
+}
+
+#proyectos .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 12px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.3);
+    margin-left: 8em;
+    margin-right: 8em;
+    
+}
+
+#proyectos .text{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+}
+
+#proyectos .img{
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)
+    )
+    ,url(/Vendor/Img/PROMOCIONALES/PROMOCIONALES\(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    width: 50%;
+    border-radius: 18px;
+    margin: 0 22px;
+ }
+
+ #proyectos .img2{
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)
+    )
+    ,url(/Vendor/Img/PROMOCIONALES/PROMOCIONALES\(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    width: 50%;
+    border-radius: 18px;
+    margin: 0 22px;
+ }
+
+ #tsunami{
+    color: #f1efef; 
+    padding: 20px 12px;
+    text-align: center;
+ }
+
+ #tsunami .container{
+    color: #f1efef; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 12px;
+ }
+
+ #tsunami .img{
+    background-image: url(/Vendor/Img/TSUNAMI/SHOW.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 7em;
+    margin-right: 7em;
+    height: 30%;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.imgfooter{
+    background-image:url(/Vendor/Img/Logos/3.png);
+    background-size: cover;
+    align-items: center;
+    background-position: center center;
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+    
+}
+
+.rsicons{
+    display: flex;
+    justify-content: center;
+}
+
+.rsicons a{
+    text-decoration: none;
+    padding: 7px;
+    background-color: #f1efef;
+    margin: 15px;
+    border-radius: 50%;
+
+}
+
+.rsicons a i{
+    font-size: 2.5em;
+    color: #000000;
+    opacity: 0.9;   
+}
+
+.rsicons a:hover{
+    background-color: #111;
+}
+
+.rsicons a:hover i{
+    color: #f1efef;
+    transition: 0.5s;
+}
+
+
+.textfooter{
+    font-size: 1em;
+    color: #f1efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track{
+    background-color: #101010f0;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #8f8f8f;
+    border-radius: 25px;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+    
+}
