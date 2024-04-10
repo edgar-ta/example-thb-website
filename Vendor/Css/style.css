@@ -63,22 +63,6 @@ nav a.active {
 
 }
 
-button{
-    font-size: 1.25em;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: rgba(0, 0, 0, 0.858);
-    background-color: #ffffffbe;
-
-}
-
-button:hover{
-    background-color:  #d2d2d2be;
-}
-
 #introduccion .containerint{
     display: flex;
     align-items: center;
