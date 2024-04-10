@@ -217,3 +217,77 @@ input{
 		margin: 15px;
 	}
 }
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.imgfooter{
+    background-image:url(/Vendor/Img/Logos/3.png);
+    background-size: cover;
+    align-items: center;
+    background-position: center center;
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+    
+}
+
+.rsicons{
+    display: flex;
+    justify-content: center;
+}
+
+.rsicons a{
+    text-decoration: none;
+    padding: 7px;
+    background-color: #f1efef;
+    margin: 15px;
+    border-radius: 50%;
+
+}
+
+.rsicons a i{
+    font-size: 2.5em;
+    color: #000000;
+    opacity: 0.9;   
+}
+
+.rsicons a:hover{
+    background-color: #111;
+}
+
+.rsicons a:hover i{
+    color: #f1efef;
+    transition: 0.5s;
+}
+
+
+.textfooter{
+    font-size: 1em;
+    color: #f1efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track{
+    background-color: #101010f0;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #8f8f8f;
+    border-radius: 25px;
+}
+
+
+.section-title {
+    font-family: Rosalia;
+}
