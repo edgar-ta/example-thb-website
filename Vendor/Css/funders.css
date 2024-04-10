@@ -186,6 +186,24 @@ nav a.active {
     font-size: 2em;
 }
 
+#bailarines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#bailarines .bail{
+    text-align: center;
+    color: #f1efef;
+    font-family: Rosalia;
+    padding-bottom: 3em;
+    font-size: 3em;
+    padding: 30px 30px;
+
+}
+
 .footercontainer{
     width: 100%;
     padding: 70px 30px 20px;
